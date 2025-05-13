@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>825341143666-6nm5b0p7amlfoid7r83132ektko88bk5.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.825341143666-6nm5b0p7amlfoid7r83132ektko88bk5</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBNFSzN5QySUfetCdW7sMMIJsLFpmWW5cE</string>
+	<key>GCM_SENDER_ID</key>
+	<string>825341143666</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>io.otrack.app</string>
+	<key>PROJECT_ID</key>
+	<string>otrack-dev</string>
+	<key>STORAGE_BUCKET</key>
+	<string>otrack-dev.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:825341143666:ios:8e9f04415b8c322284f0eb</string>
+	<key>DATABASE_URL</key>
+	<string>https://otrack-dev.firebaseio.com</string>
+</dict>
+</plist>

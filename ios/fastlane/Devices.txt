@@ -1,0 +1,3 @@
+Device ID	Device Name
+97ef1999e837a4fbf12dea58aba48ae0a61b2ada	bilal’s iPhone
+00008120-001A1D16347BC01E	bilal’s iPhone (2)

@@ -1,0 +1,83 @@
+{
+  "project_info": {
+    "project_number": "825341143666",
+    "firebase_url": "https://otrack-dev.firebaseio.com",
+    "project_id": "otrack-dev",
+    "storage_bucket": "otrack-dev.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:825341143666:android:5741731a0a087a5484f0eb",
+        "android_client_info": {
+          "package_name": "io.otrack.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "825341143666-6e7ivj6oi1vec3bo8jmmvo25iiu2v143.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBN9NQBG9nPjRAKkd9uMpLfvJhB8uKpKgc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "825341143666-6e7ivj6oi1vec3bo8jmmvo25iiu2v143.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "825341143666-6nm5b0p7amlfoid7r83132ektko88bk5.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "io.otrack.app"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:825341143666:android:35fc095608f6a65584f0eb",
+        "android_client_info": {
+          "package_name": "io.otrack.app.otrack"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "825341143666-6e7ivj6oi1vec3bo8jmmvo25iiu2v143.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBN9NQBG9nPjRAKkd9uMpLfvJhB8uKpKgc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "825341143666-6e7ivj6oi1vec3bo8jmmvo25iiu2v143.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "825341143666-6nm5b0p7amlfoid7r83132ektko88bk5.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "io.otrack.app"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

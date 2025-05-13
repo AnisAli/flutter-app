@@ -1,0 +1,38 @@
+# This file contains the fastlane.tools configuration
+# You can find the documentation at https://docs.fastlane.tools
+#
+# For a list of all available actions, check out
+#
+#     https://docs.fastlane.tools/actions
+#
+# For a list of all available plugins, check out
+#
+#     https://docs.fastlane.tools/plugins/available-plugins
+#
+
+# Uncomment the line if you want fastlane to automatically update itself
+# update_fastlane
+
+default_platform(:android)
+
+platform :android do
+
+  desc "Deploy a new version to APP Center"
+  lane :deploy_appCenter do
+    appcenter_upload(
+      api_token: "2de491baf8ffeff58442ac849bf8ff1f65d4dec7",
+      owner_name: "otrack-io",
+      owner_type: "organization",
+      app_name: "Otrack-Invoice-1",
+      file: "../build/app/outputs/flutter-apk/app-release.apk",
+      notify_testers: true
+    )
+  end
+
+  lane :build_apk do
+      gradle(
+        task: 'assemble',
+        build_type: 'Release',
+      )
+    end
+end

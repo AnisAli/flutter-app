@@ -1,0 +1,29 @@
+# This file contains the fastlane.tools configuration
+
+default_platform(:ios)
+
+platform :ios do
+  desc "Gets all certs and profiles if any or creates new ones"
+  lane :get_dev_certs do
+    cert(development: true)
+    sigh(development: true)
+  end
+
+  lane :sync_all_development do
+    sync_device_info
+    match(type: "development")
+  end
+
+  lane :sync_all_adhoc do
+      sync_device_info
+      match(type: "adhoc")
+    end
+
+  lane :sync_device_info do
+      register_devices(
+            devices_file: "./fastlane/Devices.txt"
+      )
+  end
+end
+
+
